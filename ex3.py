@@ -1,6 +1,6 @@
 '''from sys import argv
 
-script, first, second, third = argv
+script, first, second, third = argv # in o/p you have to give filename or variables
 
 print("the script is called", script)
 print("your first name is avaliable", first)
@@ -23,7 +23,8 @@ File "ex3.py", line 3, in <module>
 script, first, second, third = argv
 ValueError: too many values to unpack (expected 4)'''
 
-from sys import argv
+
+'''from sys import argv
 
 script, user_name, kid_name = argv
 prompt = ">"
@@ -35,4 +36,4 @@ xyz = input(prompt)
 print(f"where do u live {user_name}")
 lives = input(prompt)
 
-print(f"""so you said {likes} me, you live in {lives}.nice""")
+print(f"""so you said {likes} me, you live in {lives}.nice""")'''

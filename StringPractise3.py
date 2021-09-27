@@ -2,12 +2,13 @@
     if len(str1) < 2:
         return ' '
 
-    return str1[0:2] + str1[-2:]  # here how -2 takes last 2 values??
-
+    return str1[0:2] + str1[-2:]  
+    # here -2 takes last 2 values if str1[:-2] then o/t: w3w3resour w3 if str1[-2:] then o/t: w3ce   w3w3
 
 print(string_name("w3resource"))
-print(string_name("w3"))  # how output:w3w3 came??
+print(string_name("w3"))  
 print(string_name("w"))'''
+
 
 '''#replace the character into $ 
 def string_count(str1):
@@ -39,9 +40,9 @@ def add_string(str1):
     return str1
 
 
-
 print(add_string('abc'))
 print(add_string('ab'))'''
+
 
 '''# find first occurence of substring "not" and "poor" in given string and replace with "good
 
@@ -59,6 +60,7 @@ def snot_poor(str1):
 abc = input("enter sentence") #input ex:the lyrics r not that poor output is "The lyrics r good"
 
 print(snot_poor(abc))'''
+
 
 '''#finding longest string in given string
 
